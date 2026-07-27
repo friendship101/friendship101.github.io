@@ -16,19 +16,19 @@ body, h1, nav {
 body {
     padding-top: 60px;  /* Adjust this value based on the height of your navbar */
     min-height: 100vh;  /* Ensure the page content fills at least the height of the viewport */
-    background-color: --primary-color;
+    background-color: var(--primary-color);
 }
 
 /* Wrapper for all content */
 .Header {
-    background-color: --accent-color;
+    background-color: var(--accent-color);
     padding-block: 60px;  /* Adjust based on the height of your nav */
-    color:--accent-color;
+    color: var(--accent-color);
 }
 
 Footer {
     width: 100%;
-    background-color: --accent-color;
+    background-color: var(--accent-color);
     display: flex;
     justify-content: right;
     padding: 10px 0;
@@ -47,7 +47,7 @@ Footer a {
 
 /* Change the background color when hovering over a button */
 Footer a:hover {
-    background-color: --primary-color;
+    background-color: var(--primary-color);
     color: #000000;
     font-weight: bold;
 }
@@ -59,7 +59,7 @@ Footer a:hover {
     display: flex;  /* Arrange images in a row */
     gap: 10px;  /* Optional: Adds space between the images */
     justify-content: center;  /* Optional: Centers the images horizontally */
-    background-color: --primary-color;
+    background-color: var(--primary-color);
 }
 
 .ImageGrid {
@@ -69,7 +69,7 @@ Footer a:hover {
     grid-template-columns: repeat(4, 1fr);  /* Creates a responsive grid */
     gap: 10px;  /* Adds space between images */
     justify-items: center;  /* Centers the images within each grid cell */
-    background-color: --primary-color;
+    background-color: var(--primary-color);
 }
 
 /* Styling for individual images */
@@ -114,7 +114,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: --accent-color;
+    background-color: var(--accent-color);
     display: flex;
     justify-content: right;
     padding: 10px 0;
@@ -134,7 +134,7 @@ nav a {
 
 /* Change the background color when hovering over a button */
 nav a:hover {
-    background-color: --primary-color;
+    background-color: var(--primary-color);
     color: #000000;
     font-weight: bold;
 }
