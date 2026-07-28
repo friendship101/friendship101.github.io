@@ -15,7 +15,7 @@ body, h1, nav {
 
 /* Adds padding to the body to ensure content isn't hidden behind the navbar */
 body {
-    padding-top: 60px;  /* Adjust this value based on the height of your navbar */
+    padding-top: 5%;  /* Adjust this value based on the height of your navbar */
     min-height: 100vh;  /* Ensure the page content fills at least the height of the viewport */
     background-color: var(--primary-color);
 }
@@ -23,7 +23,7 @@ body {
 /* Wrapper for all content */
 .Header {
     background-color: var(--accent-color);
-    padding-block: 60px;  /* Adjust based on the height of your nav */
+    padding-block: 5%;  /* Adjust based on the height of your nav */
     color: var(--text-color);
 }
 
@@ -36,7 +36,7 @@ nav {
     background-color: var(--primary-color);
     display: flex;
     justify-content: right;
-    padding: 10px 0;
+    padding: 0.8% 0;
     z-index: 1000;
 }
 
@@ -45,9 +45,9 @@ nav a {
     color: rgb(255, 255, 255);
     font-size: large;
     text-decoration: none;
-    margin: 0 15px;
-    padding: 20px 20px;
-    border-radius: 5px;
+    margin: 0 1.25%;
+    padding: 1.7% 1.7%;
+    border-radius: 0.416%;
     transition: background-color 0.3s ease;
 }
 
